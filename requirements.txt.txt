@@ -1,0 +1,14 @@
+# Libs usadas pelo modelo e pela preparacao_dados.py, na MESMA versão do Google Colab
+# (onde o modelo foi treinado) — extraídas do requirements.txt que você enviou.
+joblib==1.6.0
+pandas==2.2.3
+numpy==2.1.3
+scikit-learn==1.6.1
+xgboost==3.4.1
+shap==0.52.0
+matplotlib==3.10.0
+
+# Streamlit não vem no Colab (não faz parte do notebook de treino), então
+# não há versão "oficial" a replicar. Uma versão estável e compatível com
+# as libs acima:
+streamlit==1.39.0
