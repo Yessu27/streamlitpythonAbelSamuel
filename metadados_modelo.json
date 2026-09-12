@@ -1,0 +1,30 @@
+{
+  "limiar_decisao": 0.59,
+  "custo_fn": 5000,
+  "custo_fp": 500,
+  "mediana_renda_treino": 5400.0,
+  "colunas_esperadas": [
+    "idade",
+    "renda_mensal",
+    "dependentes",
+    "uso_limite_rotativo",
+    "razao_divida",
+    "linhas_credito_abertas",
+    "financiamentos_imobiliarios",
+    "atrasos_30_59_dias",
+    "atrasos_60_89_dias",
+    "atrasos_90_mais_dias",
+    "renda_ausente",
+    "dependentes_ausente",
+    "atraso_sentinela",
+    "renda_por_dependente",
+    "sobra_caixa"
+  ],
+  "modelo": "xgboost",
+  "hiperparametros": {
+    "n_estimators": 200,
+    "max_depth": 3,
+    "learning_rate": 0.1,
+    "scale_pos_weight": 13.960106382978724
+  }
+}
